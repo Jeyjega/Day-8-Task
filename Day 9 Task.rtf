@@ -1,0 +1,94 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.14393}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs22\lang9 1)  Solving problems using array functions on rest countries data.\par
+a)Get all the countries from Asia continent /region using Filter function\par
+\ul\b0\i solution:-\par
+\ulnone\b\i0 code//-\par
+\b0 var request=new XMLHttpRequest();\par
+request.open('GET','https://restcountries.eu/rest/v2/all',true);\par
+request.send();\par
+request.onload=function()\{\par
+    var data=JSON.parse(this.response);\par
+    console.log(data);\par
+  for(var i=0;i<data.length;i++);\par
+\{\par
+for(var j=0;j<asia.length;j++);\par
+\{\par
+const data1.filter(data.continent);\par
+const data2.filter(data.region);\par
+\}\par
+\}\par
+console.log(data1);\par
+console.log(data2);\par
+-------------------------------------------------------------------------------------------------------------------\par
+\b b)  Get all the countries with a population of less than 2 lakhs using Filter function\par
+\ul\b0\i solution:-\par
+\ulnone\b\i0 code//-\par
+\b0 request.open('GET','https://restcountries.eu/rest/v2/all',true);\par
+request.send();\par
+request.onload=function()\{\par
+    var data=JSON.parse(this.response);\par
+    console.log(data);\par
+  for(var i=0;i<data.length;i++);\par
+\{\par
+const  data.filter(i(population)>200000)\par
+return i;\par
+\}\par
+console.log(data);\par
+\par
+-------------------------------------------------------------------------------------------------------------------\par
+\b c)  Print the following details name, capital, flag using forEach function\par
+\ul\b0\i solution:-\par
+\ulnone\b\i0 code//-\par
+\b0 request.open('GET','https://restcountries.eu/rest/v2/all',true);\par
+request.send();\par
+request.onload=function()\{\par
+    var data=JSON.parse(this.response);\par
+    console.log(data);\par
+function name()\{\par
+for(var i=0;i<data.length;i++)\par
+\{\par
+i=" ';\par
+\}\par
+console.log(name(i));\par
+-------------------------------------------------------------------------------------------------------------------\b d)  Print the total population of countries using reduce function\par
+\ul\b0\i solution:-\par
+\ulnone\b\i0 code//-\par
+\b0 request.open('GET','https://restcountries.eu/rest/v2/all',true);\par
+request.send();\par
+request.onload=function()\{\par
+    var data=JSON.parse(this.response);\par
+    console.log(data);\par
+function name()\{\par
+for(var i=0;i<data.length;i++)\par
+\{\par
+i=" ";\par
+\}\par
+data.reduce(papulation)==>\{\par
+var papulation =(data.papulation)\}\par
+console.log(data.reduce(papulation));\par
+-------------------------------------------------------------------------------------------------------------------\par
+\b e)  Print the country which uses US Dollars as currency.\par
+\ul\b0\i solution:-\par
+\ulnone\b\i0 code//-\par
+\b0 request.open('GET','https://restcountries.eu/rest/v2/all',true);\par
+request.send();\par
+request.onload=function()\{\par
+    var data=JSON.parse(this.response);\par
+    console.log(data);\par
+function name()\{\par
+for(var i=0;i<data.length;i++)\par
+\{\par
+if(i[currencies]==$)\par
+\{\par
+retuen i;\par
+\}\par
+\}\par
+console.log(data(i);\par
+____________________________________________________________________________________________________________________________________________________________________\par
+\par
+  \par
+\par
+\b\par
+\b0\par
+}
